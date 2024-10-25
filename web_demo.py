@@ -103,7 +103,7 @@ if __name__ == "__main__":
             if input_sysprompt is not None and input_sysprompt != "":
                 system_prompt = input_sysprompt
             else:
-                system_prompt = "User will provide you with a text instruction. Do it step by step. First, think about the instruction and respond in a interleaved manner, with 13 text token followed by 26 audio tokens."
+                system_prompt = "User will provide you with a text instruction. Do it step by step. First, think about the instruction and respond in a interleaved manner, with 13 text token followed by 26 audio tokens. "
 
         # Gather history
         inputs = previous_input_tokens + previous_completion_tokens
